@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survival.io Clone</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #game-container {
+            width: 1000px;
+            height: 600px;
+            background-color: #f0f0f0;
+            border: 1px solid #000;
+            position: relative;
+        }
+
+        #player {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <img id="player" src="goku-saiyan.gif" alt="Seu Personagem">
+    </div>
+    <script>
+        const player = document.getElementById("player");
+        const gameContainer = document.getElementById("game-container");
+
+        const playerSpeed = 5;
+        const playerSize = 200; // Largura e altura do jogador
+
+        let playerX = gameContainer.clientWidth / 2 - playerSize / 2;
+        let playerY = gameContainer.clientHeight / 2 - playerSize / 2;
+
+        player.style.width = playerSize + "px";
+        player.style.height = playerSize + "px";
+        player.style.left = playerX + "px";
+        player.style.top = playerY + "px";
+
+        function checkPlayerPosition() {
+            if (playerX < 0) {
+                playerX = 0;
+            }
+            if (playerX > gameContainer.clientWidth - playerSize) {
+                playerX = gameContainer.clientWidth - playerSize;
+            }
+            if (playerY < 0) {
+                playerY = 0;
+            }
+            if (playerY > gameContainer.clientHeight - playerSize) {
+                playerY = gameContainer.clientHeight - playerSize;
+            }
+        }
+
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowUp") {
+                playerY -= playerSpeed;
+            }
+            if (event.key === "ArrowDown") {
+                playerY += playerSpeed;
+            }
+            if (event.key === "ArrowLeft") {
+                playerX -= playerSpeed;
+            }
+            if (event.key === "ArrowRight") {
+                playerX += playerSpeed;
+            }
+
+            checkPlayerPosition();
+
+            player.style.left = playerX + "px";
+            player.style.top = playerY + "px";
+        });
+
+        function gameLoop() {
+            // Adicione lógica de jogo aqui
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        gameLoop();
+    </script>
+</body>
+</html>
