@@ -15,3 +15,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex006/index.html">Executar o exercicio 006 Favcom e hx<a></li>
 
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex007/index.html">Executar o exercicio 007 N I<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex008/index.html">Executar o exercicio 008 Principais formatacoes<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex009/index.html">Executar o exercicio 009 Outras formatacoes  <a></li>
