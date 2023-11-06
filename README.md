@@ -25,3 +25,5 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex010.1/index.html">Executar o exercicio 010.1 Trabalhando Links ex<a></li>
 
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex011/index.html">Executar o exercicio 011 Imagens Dinamicas<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex012/index.html">Executar o exercicio 012 Videos<a></li>
