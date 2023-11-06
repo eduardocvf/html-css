@@ -12,5 +12,4 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
 
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex003/index.html">Executar o exercicio 003 Carga de imagem<a></li>
 
-
-<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex004/index.html">Executar o exercicio 004<a></li>
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex005/index.html">Executar o exercicio 005<a></li>
