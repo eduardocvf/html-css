@@ -14,4 +14,4 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
 
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex006/index.html">Executar o exercicio 006 Favcom e hx<a></li>
 
-<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex007/index.html">Executar o exercicio 007 Negrito Italico<a></li>
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex007/index.html">Executar o exercicio 007 N I<a></li>
