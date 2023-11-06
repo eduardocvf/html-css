@@ -18,4 +18,6 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
 
 <li><a href="https://eduadovieira.github.io/html-css/exercicios/ex008/index.html">Executar o exercicio 008 Principais formatacoes<a></li>
 
-<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex009/index.html">Executar o exercicio 009 Outras formatacoes  <a></li>
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex009/index.html">Executar o exercicio 009 Outras formatacoes<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex010/index.html">Executar o exercicio 010 Trabalhando com listas<a></li>
