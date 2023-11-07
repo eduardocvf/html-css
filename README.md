@@ -1,4 +1,5 @@
 # html-css
+
 # Bem-vindo ao meu repositório HTML e CSS!
 
 ## Sobre este repositório
@@ -10,27 +11,31 @@ Este repositório contém alguns estudos em HTML e CSS que estou estudando. Sint
 Aqui estão alguns dos projetos neste repositório:
 
 
+<ol>
 
-## Como contribuir
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio 001 Olá mundo<a></li>
 
-Se você quiser contribuir para este repositório, aqui estão algumas diretrizes:
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex002/index.html">Executar o exercicio 002 Paragrafo/QL<a></li>
 
-- Faça um fork deste repos. 
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex003/index.html">Executar o exercicio 003 Carga de imagem<a></li>
 
-1. Executar o exercicio 001 Olá mundo
-2. Executar o exercicio 002 Paragrafo/QL
-3. Executar o exercicio 003 Carga de imagem
-4. Executar o exercicio 006 Favcom e hx
-5. Executar o exercicio 007 N I
-6. Executar o exercicio 008 Principais formatacoes
-7. Executar o exercicio 009 Outras formatacoes
-8. Executar o exercicio 010 Trabalhando com listas
-9. Executar o exercicio 010.1 Trabalhando Links ex
-10. Executar o exercicio 011 Imagens Dinamicas
-11. Executar o exercicio 012 Videositório.
-- Crie uma nova branch.
-- Faça suas alterações.
-- Faça um pull request.
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex006/index.html">Executar o exercicio 006 Favcom e hx<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex007/index.html">Executar o exercicio 007 N I<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex008/index.html">Executar o exercicio 008 Principais formatacoes<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex009/index.html">Executar o exercicio 009 Outras formatacoes<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex010/index.html">Executar o exercicio 010 Trabalhando com listas<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex010.1/index.html">Executar o exercicio 010.1 Trabalhando Links ex<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex011/index.html">Executar o exercicio 011 Imagens Dinamicas<a></li>
+
+<li><a href="https://eduadovieira.github.io/html-css/exercicios/ex012/index.html">Executar o exercicio 012 Videos<a></li>
+
+
 
 ## Contato
 
