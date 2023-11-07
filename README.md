@@ -37,8 +37,4 @@ Aqui estão alguns dos projetos neste repositório:
 </ol>
 
 
-## Contato
 
-Se você tiver alguma dúvida ou comentário, sinta-se à vontade para me contatar.
-
-Obrigado por visitar meu repositório!
