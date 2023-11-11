@@ -54,6 +54,7 @@ section {
 section > p {
     padding-bottom: 2em;
     text-align: left;
+    padding: 30px;
 }
 
 /* Estilos para telas menores (mobile) */
@@ -73,6 +74,9 @@ section > p {
 section.normal {
     background-color: white;
     color: black;
+    margin: 0px;
+    padding: 5px;
+
 }
 section.imagem {
     background-color: rgb(51, 51, 51);
