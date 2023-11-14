@@ -1,0 +1,167 @@
+/* O seletor * aplica as regras para todos os elementos da página */
+* {
+    /* A propriedade box-sizing define como o tamanho de um elemento é calculado, incluindo ou não o padding e a border */
+    box-sizing: border-box;
+    /* A propriedade margin define a margem externa de um elemento, ou seja, o espaço entre o elemento e os outros elementos */
+    margin: 0;
+    /* A propriedade padding define a margem interna de um elemento, ou seja, o espaço entre o conteúdo do elemento e a sua borda */
+    padding: 0;
+  }
+  
+  /* O seletor body aplica as regras para o elemento body, que representa o corpo da página */
+  body {
+    /* A propriedade font-family define a fonte usada para o texto do elemento */
+    font-family: Arial, sans-serif;
+    /* A propriedade font-size define o tamanho da fonte usada para o texto do elemento */
+    font-size: 16px;
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: #333333;
+    /* A propriedade background-color define a cor de fundo do elemento */
+    background-color: #f0f0f0;
+  }
+  
+  /* O seletor header aplica as regras para o elemento header, que representa o cabeçalho da página */
+  header {
+    /* A propriedade width define a largura do elemento */
+    width: 100%;
+    /* A propriedade height define a altura do elemento */
+    height: 80px;
+    /* A propriedade background-image define a imagem de fundo do elemento */
+    background-image: url("porto.jpg");
+    /* A propriedade background-size define o tamanho da imagem de fundo do elemento */
+    background-size: cover;
+    /* A propriedade background-position define a posição da imagem de fundo do elemento */
+    background-position: center;
+    /* A propriedade display define como o elemento é exibido na página */
+    display: flex;
+    /* A propriedade align-items define como os itens dentro do elemento são alinhados verticalmente */
+    align-items: center;
+    /* A propriedade justify-content define como os itens dentro do elemento são alinhados horizontalmente */
+    justify-content: space-between;
+    /* A propriedade padding define a margem interna do elemento */
+    padding: 0 20px;
+  }
+  
+  /* O seletor header h1 aplica as regras para o elemento h1 dentro do elemento header, que representa o título da página */
+  header h1 {
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: white;
+    /* A propriedade text-shadow define uma sombra para o texto do elemento */
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  /* O seletor nav aplica as regras para o elemento nav, que representa uma seção de navegação */
+  nav {
+    /* A propriedade display define como o elemento é exibido na página */
+    display: flex;
+  }
+  
+  /* O seletor nav ul aplica as regras para o elemento ul dentro do elemento nav, que representa uma lista não ordenada */
+  nav ul {
+    /* A propriedade display define como o elemento é exibido na página */
+    display: flex;
+    /* A propriedade list-style-type define o estilo dos marcadores da lista */
+    list-style-type: none;
+  }
+  
+  /* O seletor nav ul li aplica as regras para os elementos li dentro do elemento ul dentro do elemento nav, que representam os itens da lista */
+  nav ul li {
+    /* A propriedade margin define a margem externa do elemento */
+    margin: 0 10px;
+  }
+  
+  /* O seletor nav ul li a aplica as regras para os elementos a dentro dos elementos li dentro do elemento ul dentro do elemento nav, que representam os links da lista */
+  nav ul li a {
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: white;
+    /* A propriedade text-decoration define o estilo do sublinhado do texto do elemento */
+    text-decoration: none;
+    /* A propriedade font-weight define a espessura da fonte usada para o texto do elemento */
+    font-weight: bold;
+  }
+  
+  /* O seletor nav ul li a:hover aplica as regras para os elementos a dentro dos elementos li dentro do elemento ul dentro do elemento nav quando o mouse passa sobre eles, que representam os links da lista */
+  nav ul li a:hover {
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: yellow;
+  }
+  
+  /* O seletor main aplica as regras para o elemento main, que representa o conteúdo principal da página */
+  main {
+    /* A propriedade width define a largura do elemento */
+    width: 80%;
+    /* A propriedade margin define a margem externa do elemento */
+    margin: 20px auto;
+    /* A propriedade border define a borda do elemento */
+    border: 1px solid #cccccc;
+    /* A propriedade background-color define a cor de fundo do elemento */
+    background-color: white;
+    /* A propriedade padding define a margem interna do elemento */
+    padding: 20px;
+  }
+  
+  /* O seletor section aplica as regras para o elemento section, que representa uma seção dentro do conteúdo principal */
+  section {
+    /* A propriedade margin define a margem externa do elemento */
+    margin: 20px 0;
+  }
+  
+  /* O seletor section h2 aplica as regras para o elemento h2 dentro do elemento section, que representa o título da seção */
+  section h2 {
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: #0066cc;
+    /* A propriedade text-align define o alinhamento do texto do elemento */
+    text-align: center;
+  }
+  
+  /* O seletor article aplica as regras para o elemento article, que representa um conteúdo independente e autocontido */
+  article {
+    /* A propriedade display define como o elemento é exibido na página */
+    display: flex;
+    /* A propriedade align-items define como os itens dentro do elemento são alinhados verticalmente */
+    align-items: center;
+  }
+  
+  /* O seletor article h3 aplica as regras para o elemento h3 dentro do elemento article, que representa o título do conteúdo */
+  article h3 {
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: #009933;
+  }
+  
+  /* O seletor article p aplica as regras para o elemento p dentro do elemento article, que representa o texto do conteúdo */
+  article p {
+    /* A propriedade width define a largura do elemento */
+    width: 60%;
+  }
+  
+  /* O seletor article figure aplica as regras para o elemento figure dentro do elemento article, que representa um conteúdo ilustrativo */
+  article figure {
+    /* A propriedade width define a largura do elemento */
+    width: 40%;
+  }
+  
+  /* O seletor article figure img aplica as regras para o elemento img dentro do elemento figure dentro do elemento article, que representa a imagem do conteúdo ilustrativo */
+  article figure img {
+    /* A propriedade width define a largura do elemento */
+    width: 100%;
+    /* A propriedade height define a altura do elemento */
+    height: auto;
+  }
+  
+  /* O seletor article figure figcaption aplica as regras para o elemento figcaption dentro do elemento figure dentro do elemento article, que representa a legenda da imagem do conteúdo ilustrativo */
+  article figure figcaption {
+    /* A propriedade color define a cor da fonte usada para o texto do elemento */
+    color: #666666;
+    /* A propriedade font-style define o estilo da fonte usada para o texto do elemento */
+    font-style: italic;
+    /* A propriedade text-align define o alinhamento do texto do elemento */
+    text-align: center;
+  }
+  
+  /* O seletor footer aplica as regras para o elemento footer, que representa o rodapé da página */
+  footer {
+    /* A propriedade width define a largura do elemento */
+    width: 100%;
+    /* A propriedade height define a altura do elemento */
+    height: 80px;
+  
