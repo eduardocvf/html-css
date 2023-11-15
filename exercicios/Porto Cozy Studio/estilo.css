@@ -33,7 +33,7 @@ header h1 {
   text-shadow: 2px 2px 4px black;
 }
 
-/*-- NAVI --*/
+
 
 main {
   width: 80%;
@@ -81,6 +81,15 @@ main {
   padding: 10px;
   border-radius: 5px;
 }
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f00;
+  text-decoration: bolder;
+}
 }
 section {
   margin: 20px 30px;
@@ -89,7 +98,8 @@ section {
 section h2 {
   color: red;
   text-align: left;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  
   
 }
 
@@ -103,6 +113,7 @@ h3 {
   height: 100px;
   width: 80%;
   text-align:left;
+  margin-bottom: -50px;
 
  /* Use margin-right to move h3 to the left */
 }
