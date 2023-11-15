@@ -42,7 +42,46 @@ main {
   background-color: white;
   padding: 20px;
 }
+#nav{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#nav ul {
+  list-style: none; /* Remove os marcadores de lista */
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Alinha os itens de lista horizontalmente */
+ 
+}
 
+#nav ul li {
+  display: inline;
+  margin:10px; /* Adiciona margem aos lados de cada item de lista */
+}
+
+#nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  nav ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinha os itens de lista horizontalmente */
+  justify-content: center; /* Centraliza os itens de lista */
+}
+
+#nav ul li {
+  margin: 0 10px; /* Adiciona margem aos lados de cada item de lista */
+}
+
+#nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  text-align: center;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+}
+}
 section {
   margin: 20px 30px;
 }
