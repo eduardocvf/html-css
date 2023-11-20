@@ -42,9 +42,9 @@
     }
 
     /* Estilo para telas grandes (desktop) */
-    @media (min-width: 768px) {
+    @media (min-width: 600px) {
         .coluna img {
-            max-width: 50%;  /* ou qualquer outro valor que você achar adequado */
+            max-width: 100%;  /* ou qualquer outro valor que você achar adequado */
             
         }
     }
@@ -73,3 +73,43 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    body {
+        font-family: Arial, sans-serif;
+        padding: 0px;
+        
+
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        
+    }
+    th, td {
+        border: 1px solid #0f0f0f;
+        padding: 8px;
+        text-align: left;
+    }
+    footer{
+        text-align: center;
+    }
+    .gallery {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .image {
+        margin: 10px;
+        width: calc(33.33% - 20px);
+        overflow: hidden;
+      }
+      .image img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s;
+      }
+      .image:hover img {
+        transform: scale(1.1);
+      }
