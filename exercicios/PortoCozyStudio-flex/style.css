@@ -2,9 +2,12 @@
 
     h1{
         text-align: center;
+        padding-top: 50px;
+        
     }
     h2{
         text-align: center;
+        
     }
     h3{
         text-align: center;
@@ -55,8 +58,15 @@
         }
     }
     nav {
+        
         display: flex;
         justify-content: center;
+        background-image: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: white
     }
 
     nav ul {
