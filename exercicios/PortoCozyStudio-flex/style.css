@@ -11,6 +11,12 @@
     }
     p {
         text-indent: 50px;
+        padding: 10px;
+         margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        line-height: 2em;
+
     }
     .container {
         display: flex;
@@ -26,14 +32,14 @@
     .coluna2 {
         flex: 3;
         
-        background-color: #e9ecef; /* Cor de fundo para visualização */
+        background-color: #ffffff; /* Cor de fundo para visualização */
         border: 0px solid black; /* Adicionando borda */
         padding: 10px; /* Adicionando um pouco de espaço ao redor do texto */
 
     }
     .coluna img {
         /* Faz a imagem responsiva */
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
         display: block;
         margin-left: auto;
@@ -61,12 +67,13 @@
     nav ul li {
         display: inline;
         margin-right: 15px;
+        text-align: center;
     }
     .parallax {
         /* Coloque a imagem a ser usada como background */
         background-image: url("caminho/para/sua/imagem.jpg");
         /* Defina uma altura para a visão que o usuário terá da imagem */
-        min-height: 350px;
+        min-height: 600px;
         /* defina o background como fixo e posicione a imagem */
         background-attachment: fixed;
         background-position: center;
@@ -123,4 +130,9 @@
         .image {
           width: 100%;
         }
+        .imagem-400x400 {
+            width: 400px;
+            height: 400px;
+          }
       }
+  
