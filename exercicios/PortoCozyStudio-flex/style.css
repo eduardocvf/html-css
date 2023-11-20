@@ -113,3 +113,14 @@
       .image:hover img {
         transform: scale(1.1);
       }
+      @media screen and (max-width: 768px) {
+        .image {
+          width: calc(50% - 20px);
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .image {
+          width: 100%;
+        }
+      }
