@@ -43,7 +43,7 @@
     }
     .coluna img {
         /* Faz a imagem responsiva */
-        max-width: 75%;
+        max-width: 80%;
         height: auto;
         display: block;
         margin-left: auto;
@@ -52,7 +52,7 @@
     }
 
     /* Estilo para telas grandes (desktop) */
-    @media (min-width: 600px) {
+    @media (min-width: 800px) {
         .coluna img {
             max-width: 100%;  /* ou qualquer outro valor que você achar adequado */
             
@@ -110,10 +110,13 @@
     footer{
         text-align: center;
     }
+    figure {
+        text-align: center;
+    }
     .gallery {
         width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
+        max-width: 100%;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -131,13 +134,13 @@
     .image:hover img {
         transform: scale(1.1);
     }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         .image img {
-            width: 100% !important;
-            height: auto !important;
+            width: 100% ;
+            height: auto ;
         }
         .imagem-400x400 img {
-            width: 100% !important;
-            height: auto !important;
+            width: 100%;
+            height: auto;
         }
     }
