@@ -80,17 +80,7 @@
         margin-right: 15px;
         text-align: center;
     }
-    .parallax {
-        /* Coloque a imagem a ser usada como background */
-        background-image: url("caminho/para/sua/imagem.jpg");
-        /* Defina uma altura para a visão que o usuário terá da imagem */
-        min-height: 800px;
-        /* defina o background como fixo e posicione a imagem */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  
     body {
         font-family: Arial, sans-serif;
         padding: 0px;
@@ -115,8 +105,8 @@
     }
     .gallery {
         width: 100%;
-        max-width: 100%;
-        margin: auto;
+        max-width: 800px;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -134,13 +124,14 @@
     .image:hover img {
         transform: scale(1.1);
     }
-    @media screen and (max-width: 1000px) {
-        .image img {
-            width: 100% ;
-            height: auto ;
+    @media screen and (max-width: 768px) {
+        .image {
+          width: calc(50% - 20px);
         }
-        .imagem-400x400 img {
-            width: 100%;
-            height: auto;
+      }
+      
+      @media screen and (max-width: 480px) {
+        .image {
+          width: 100%;
         }
-    }
+      }
