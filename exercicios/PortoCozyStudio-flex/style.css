@@ -3,6 +3,11 @@
     :root {
     --coluna-width: 0.5; /* Define a variável CSS para a largura da coluna */
 }
+#logo {
+    position: absolute; /* Define a posição da imagem como absoluta */
+    top: 10px; /* Define a distância da imagem ao topo do cabeçalho como 10px */
+    left: 10px; /* Define a distância da imagem à esquerda do cabeçalho como 10px */
+}
 
     h1{
         text-align: center;
