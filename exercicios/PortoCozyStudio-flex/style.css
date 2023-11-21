@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+    :root {
+    --coluna-width: 0.5; /* Define a variável CSS para a largura da coluna */
+}
+
     h1{
         text-align: center;
         padding-top: 50px;
@@ -27,10 +31,9 @@
     }
 
     .coluna {
-        flex: 0.5;
-        background-color: white
-        ; /* Cor de fundo para visualização */
-        border: 0px solid black; /* Adicionando borda */
+     flex: var(--coluna-width);
+     background-color: white;
+     border: 0 solid black;
     }
 
     .coluna2 {
@@ -43,19 +46,14 @@
     }
     .coluna img {
         /* Faz a imagem responsiva */
-        max-width: 80%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         
     }
 
     /* Estilo para telas grandes (desktop) */
     @media (min-width: 800px) {
         .coluna img {
-            max-width: 100%;  /* ou qualquer outro valor que você achar adequado */
-            
+            max-width: calc(var (--coluna-width)* 100vw);
         }
     }
 
@@ -111,6 +109,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    img {
+        max-width: 80%;
+        
+        
     }
     .image {
         margin: 10px;
